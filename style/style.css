@@ -1,0 +1,204 @@
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+a:visited {
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#nav-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+  padding: 6px 0;
+}
+
+.topnav {
+  padding: 13px 50px;
+}
+
+.topnav a {
+  float: left;
+  color: #f77b7b;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#title-name:hover, .topnav a:hover {
+  color: #ff4646b5;
+}
+
+
+.container {
+  width: 100%;
+}
+
+
+#title-name{
+  color: #f77b7b;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  padding: 10px 50px;
+}
+
+#parent {
+  position: absolute;
+  width: 100%;
+  
+}
+
+.text-wheat {
+  color: wheat
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-5 {
+  width: 41.6%;
+}
+
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-12 {
+  width: 100% !important;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+
+.fw-bold {
+  font-weight: bolder;
+}
+
+.text-style {
+  word-spacing: 5px; 
+  letter-spacing: 12px;
+  text-align: justify;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.alit-c {
+  align-items: center;
+}
+
+.juco-c {
+  justify-content: center;
+}
+
+.juco-e {
+  justify-content: end;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#skill-list li {
+  font-size: 30px;
+}
+
+#skill-list {
+  list-style: inside;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.text-main {
+  font-size: 45px;
+}
+
+#resume {
+  color: #06067f;
+}
+
+#resume:hover {
+  color: #8b0707;
+}
+  
+.grad-1 {
+  background-image: linear-gradient(90deg, #ffff0061, #000000d4);
+}
+
+.grad-2 {
+  background-image: linear-gradient(to bottom right, #ffff0061, #000000d4);
+}
+
+.grad-3 {
+  background-image: linear-gradient(to bottom right, #ffff0061, #000000d4);
+}
+
+.grad-4 {
+  background-image: linear-gradient(to bottom right,  #000000d4, #ffff0061);
+}
+
+.grad-5 {
+  background-image: linear-gradient(to bottom right,  #000000d4, #ffff0061);
+}
+
+.grad-6 {
+  background-image: linear-gradient(to bottom right,  #000000d4, #ffff0061);
+}
